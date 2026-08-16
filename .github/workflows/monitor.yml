@@ -23,18 +23,17 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic requests
 
-      - name: Debug network
-        run: |
-          curl -s --max-time 5 -o /dev/null -w "meduza rss: %{http_code}\n" https://meduza.io/rss/all || echo "meduza: failed"
-          curl -s --max-time 5 -o /dev/null -w "anthropic: %{http_code}\n" https://api.anthropic.com/v1/models \
-            -H "x-api-key: $ANTHROPIC_API_KEY" -H "anthropic-version: 2023-06-01" || echo "anthropic: failed"
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
       - name: Run monitor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/monitor.py
+        run: |
+          set -o pipefail
+          python3 scripts/monitor.py 2>&1 | tee /tmp/monitor_output.txt
+          exit ${PIPESTATUS[0]}
+
+      - name: Upload monitor log on failure
+        if: failure()
+        run: cat /tmp/monitor_output.txt || echo "no output"
 
       - name: Commit and push if changed
         run: |
