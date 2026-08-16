@@ -1,24 +1,41 @@
 import urllib.request, xml.etree.ElementTree as ET
+
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
-instances = [
-    "https://rsshub.app",
+WORKING_INSTANCES = [
     "https://rsshub.rssforever.com",
     "https://hub.slarker.me",
-    "https://rsshub.woodland.cafe",
     "https://rsshub.ktachibana.party",
-    "https://rsshub.privacyredirect.com",
 ]
+CHANNELS = [
+    "bazabazon",      # Baza — confirmed incidents
+    "shot_shot",      # SHOT — operational news
+    "rybar",          # Rybar — military analytics
+    "mchsgov",        # MChS — official fires
+    "readovkanews",   # Readovka — field news
+    "astrapress",     # Astra press account
+    "ostorozhno_novosti", # Obz news
+    "warfakes",
+    "rian_ru",        # RIA Novosti
+    "tass_agency",    # TASS
+]
+
 results = []
-for base in instances:
-    for channel in ["astra_intel", "bazabazon", "shot_shot"]:
+for channel in CHANNELS:
+    success = False
+    for base in WORKING_INSTANCES:
         url = f"{base}/telegram/channel/{channel}"
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=10) as r:
                 items = len(list(ET.fromstring(r.read()).iter("item")))
-            line = f"OK {base}/{channel}: {items} items"
-            results.append(line); print(line); break
+            line = f"OK {channel} via {base.split(".")[1]}: {items} items"
+            results.append((channel, base, items))
+            print(line); success=True; break
         except Exception as e:
-            line = f"FAIL {base}/{channel}: {str(e)[:70]}"
-            results.append(line); print(line)
-open("rsshub_test.txt","w").write("\n".join(results))
+            pass
+    if not success:
+        print(f"FAIL {channel}: not available on any instance")
+
+open("rsshub_test.txt","w").write("\n".join(
+    f"OK {ch} via {b}: {n}" for ch,b,n in results
+))
