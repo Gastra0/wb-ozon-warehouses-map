@@ -9,7 +9,9 @@ import json, math, random, urllib.request, re, sys, os
 random.seed(31)
 
 # ── Load data ──────────────────────────────────────────────────────────────
-DATA = json.load(open("wh_data.json", encoding="utf-8"))
+DATA_FILE = "wh_data.json"
+HTML_FILE = "index.html"
+DATA = json.load(open(DATA_FILE, encoding="utf-8"))
 W    = DATA["warehouses"]
 UPDATED = DATA.get("last_updated", "")
 
