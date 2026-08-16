@@ -1,14 +1,27 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-16 20:49 UTC] WB Monitor starting
+[2026-08-16 21:19 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 5 seen UIDs
   Meduza: 30 items → 1 relevant
   BBC Russian: 37 items → 1 relevant
   Ukrainska Pravda: 20 items → 0 relevant
-  fetch https://news.liga.net/rss/all.xml: HTTP Error 403: Forbidden
-  Liga.net: 0 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 2 relevant
-  fetch https://www.fontanka.ru/export/rss.xml: <urlopen error [Errno -3] Temporary failure in name resolution>
-  Fontanka: 0 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  TG:Baza: 17 items → 0 relevant
+  TG:SHOT: 9 items → 0 relevant
+  TG:Rybar: 15 items → 0 relevant
+  TG:Astra: 14 items → 1 relevant
+    NEW: ↩️🎬 Вертолеты продолжают тушить атакованный склад Wildberries в подмосковном Кол
+  TG:Readovka: 17 items → 0 relevant
+  TG:Obzor: 6 items → 1 relevant
+    NEW: 🎬 Пожарные вертолёты заметили над Симферопольским шоссе.
+
+Sending 2 articles to Claude Haiku...
+Claude: in=5377 out=4799 tokens
+Summary: Підтвердження продовження масштабної пожежі на Коледіно (16 серпня) — вертольоти продовжують гасіння на момент 16:42. Нові атаки не зареєстровані. База даних актуальна на 16 серпня 2026 р.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 40 warehouses, {'burned': 21, 'ok': 15, 'hit': 4}
+
+Done ✓
