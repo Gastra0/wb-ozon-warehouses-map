@@ -3,22 +3,19 @@ name: WB Warehouse Monitor
 on:
   schedule:
     - cron: '0 5 * * *'   # 08:00 Kyiv / 07:00 Moscow щодня
-  workflow_dispatch:        # ручний запуск теж доступний
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,7 +35,7 @@ jobs:
           git config user.name  "WB-Monitor Bot"
           git config user.email "wb-monitor@github-actions"
           git add -A
-          git diff --cached --quiet && echo "No changes to commit" || (
+          git diff --cached --quiet && echo "No changes" || (
             git commit -m "🤖 Auto-update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           )
