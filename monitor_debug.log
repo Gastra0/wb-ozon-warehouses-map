@@ -1,35 +1,14 @@
-Traceback (most recent call last):
-  File "/home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map/scripts/monitor.py", line 170, in <module>
-    response = client.messages.create(
-               ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/resources/messages/messages.py", line 1048, in create
-    return self._post(
-           ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 1536, in post
-    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 1195, in request
-    raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce6kA6y6hMyuJNow7Go45'}
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-16 16:29 UTC] WB Monitor starting
+[2026-08-16 20:20 UTC] WB Monitor starting
 DATA_FILE exists: True
-seen_uids: [Errno 2] No such file or directory: '.github/seen_uids.json' (starting fresh)
+Loaded 3 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Война. 1635-й день. В Подмосковье во второй раз атакован один из крупнейших скла
   fetch https://www.fontanka.ru/export/rss.xml: HTTP Error 428: 
   Fontanka: 0 items → 0 relevant
   BBC Russian: 37 items → 1 relevant
-    NEW: Дальнобойные атаки России и Украины: после ночных ударов есть жертвы в Кривом Ро
-  Ukrainska Pravda: 20 items → 1 relevant
-    NEW: Міноборони: Україна вивела з ладу 7 із 10 найбільших логістичних центрів Wildber
+  Ukrainska Pravda: 20 items → 0 relevant
   fetch https://rssexport.rbc.ru/rbcnews/news/20/full.rss: HTTP Error 404: Not Found
   RBK: 0 items → 0 relevant
   fetch https://tjournal.ru/rss: The read operation timed out
   T-Journal: 0 items → 0 relevant
-
-Sending 3 articles to Claude Haiku...
-ERROR calling Claude API: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ce6kA6y6hMyuJNow7Go45'}
+No new articles → no Claude call needed. Exiting cleanly.
