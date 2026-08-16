@@ -1,0 +1,30 @@
+name: Test rsshub
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test rsshub instances
+        run: |
+          python3 - << 'PYEOF'
+import urllib.request, xml.etree.ElementTree as ET
+HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
+instances = [
+    "https://rsshub.app",
+    "https://rsshub.rssforever.com",
+    "https://hub.slarker.me",
+    "https://rsshub.woodland.cafe",
+    "https://rsshub.ktachibana.party",
+    "https://rsshub.privacyredirect.com",
+]
+for base in instances:
+    url = f"{base}/telegram/channel/astra_intel"
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=8) as r:
+            items = len(list(ET.fromstring(r.read()).iter("item")))
+        print(f"OK {base}: {items} items")
+    except Exception as e:
+        print(f"FAIL {base}: {str(e)[:60]}")
+PYEOF
