@@ -1,0 +1,14 @@
+FAIL https://rsshub.app/astra_intel: HTTP Error 403: Forbidden
+FAIL https://rsshub.app/bazabazon: HTTP Error 403: Forbidden
+FAIL https://rsshub.app/shot_shot: HTTP Error 403: Forbidden
+FAIL https://rsshub.rssforever.com/astra_intel: HTTP Error 503: Service Unavailable
+OK https://rsshub.rssforever.com/bazabazon: 17 items
+FAIL https://hub.slarker.me/astra_intel: HTTP Error 503: Service Unavailable
+OK https://hub.slarker.me/bazabazon: 17 items
+FAIL https://rsshub.woodland.cafe/astra_intel: The read operation timed out
+OK https://rsshub.woodland.cafe/bazabazon: 17 items
+FAIL https://rsshub.ktachibana.party/astra_intel: HTTP Error 503: Service Unavailable
+OK https://rsshub.ktachibana.party/bazabazon: 17 items
+FAIL https://rsshub.privacyredirect.com/astra_intel: HTTP Error 404: Not Found
+FAIL https://rsshub.privacyredirect.com/bazabazon: HTTP Error 404: Not Found
+FAIL https://rsshub.privacyredirect.com/shot_shot: HTTP Error 404: Not Found
