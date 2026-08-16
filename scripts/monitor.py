@@ -24,14 +24,29 @@ KEYWORDS = [
     "логістичний центр wildberries", "wb склад",
 ]
 
+# rsshub instances для Telegram каналів (fallback по черзі)
+RSSHUB = [
+    "https://rsshub.rssforever.com",
+    "https://hub.slarker.me",
+    "https://rsshub.ktachibana.party",
+]
+def tg(channel):
+    return f"{RSSHUB[0]}/telegram/channel/{channel}"
+
 FEEDS = [
-    # Перевірені — стабільно працюють
-    ("Meduza",            "https://meduza.io/rss/all"),
-    ("BBC Russian",       "https://feeds.bbci.co.uk/russian/rss.xml"),
-    ("Ukrainska Pravda",  "https://www.pravda.com.ua/rss/view_news/"),
-    # Російські незалежні
-    ("Mediazona",         "https://zona.media/rss"),
-    ("The Insider",       "https://theins.ru/feed"),
+    # RSS — стабільні
+    ("Meduza",           "https://meduza.io/rss/all"),
+    ("BBC Russian",      "https://feeds.bbci.co.uk/russian/rss.xml"),
+    ("Ukrainska Pravda", "https://www.pravda.com.ua/rss/view_news/"),
+    ("Mediazona",        "https://zona.media/rss"),
+    ("The Insider",      "https://theins.ru/feed"),
+    # Telegram via rsshub (перевірено — доступно з GitHub Actions)
+    ("TG:Baza",      tg("bazabazon")),         # підтверджені пожежі/вибухи
+    ("TG:SHOT",      tg("shot_shot")),          # оперативні новини РФ
+    ("TG:Rybar",     tg("rybar")),              # військова аналітика
+    ("TG:Astra",     tg("astrapress")),         # OSINT по атаках
+    ("TG:Readovka",  tg("readovkanews")),       # новини з місць подій
+    ("TG:Obzor",     tg("ostorozhno_novosti")),# зведення інцидентів
 ]
 
 HEADERS = {
