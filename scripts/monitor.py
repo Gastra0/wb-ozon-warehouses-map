@@ -29,12 +29,9 @@ FEEDS = [
     ("Meduza",            "https://meduza.io/rss/all"),
     ("BBC Russian",       "https://feeds.bbci.co.uk/russian/rss.xml"),
     ("Ukrainska Pravda",  "https://www.pravda.com.ua/rss/view_news/"),
-    ("Liga.net",          "https://news.liga.net/rss/all.xml"),
     # Російські незалежні
     ("Mediazona",         "https://zona.media/rss"),
     ("The Insider",       "https://theins.ru/feed"),
-    # Ситуативні (можуть давати 403/404 — gracefully handled)
-    ("Fontanka",          "https://www.fontanka.ru/export/rss.xml"),
 ]
 
 HEADERS = {
