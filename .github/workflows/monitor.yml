@@ -23,19 +23,21 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic requests
 
-      - name: Run monitor
+      - name: Run monitor (capture output)
+        id: monitor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/monitor.py > monitor_debug.log 2>&1
+        continue-on-error: true
+
+      - name: Show output and decide
         run: |
-          set -o pipefail
-          python3 scripts/monitor.py 2>&1 | tee /tmp/monitor_output.txt
-          exit ${PIPESTATUS[0]}
+          echo "=== monitor output ==="
+          cat monitor_debug.log
+          echo "=== exit ==="
+          grep -q "Done ✓\|No new articles" monitor_debug.log && echo "SUCCESS" || (echo "FAILURE"; exit 1)
 
-      - name: Upload monitor log on failure
-        if: failure()
-        run: cat /tmp/monitor_output.txt || echo "no output"
-
-      - name: Commit and push if changed
+      - name: Commit results
         run: |
           git config user.name  "WB-Monitor Bot"
           git config user.email "wb-monitor@github-actions"
