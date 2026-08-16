@@ -1,9 +1,6 @@
 name: Test rsshub
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/test_rsshub.yml
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -13,35 +10,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }}
-      - name: Test rsshub instances
-        run: |
-          python3 - << 'PYEOF'
-import urllib.request, xml.etree.ElementTree as ET
-HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
-instances = [
-    "https://rsshub.app",
-    "https://rsshub.rssforever.com",
-    "https://hub.slarker.me",
-    "https://rsshub.woodland.cafe",
-    "https://rsshub.ktachibana.party",
-    "https://rsshub.privacyredirect.com",
-]
-results = []
-for base in instances:
-    url = f"{base}/telegram/channel/astra_intel"
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=10) as r:
-            items = len(list(ET.fromstring(r.read()).iter("item")))
-        line = f"OK {base}: {items} items"
-    except Exception as e:
-        line = f"FAIL {base}: {str(e)[:70]}"
-    print(line)
-    results.append(line)
-open("rsshub_test.txt","w").write("\n".join(results))
-PYEOF
-      - name: Commit results
-        run: |
+      - run: python3 scripts/test_rsshub.py
+      - run: |
           git config user.name "test-bot"
           git config user.email "test@bot"
           git add rsshub_test.txt
