@@ -1,16 +1,31 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-17 07:45 UTC] WB Monitor starting
+[2026-08-18 07:31 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 7 seen UIDs
   Meduza: 30 items → 1 relevant
-  BBC Russian: 37 items → 1 relevant
+    NEW: Украина запустила более 600 дронов в сторону Москвы. В Подмосковье пострадали тр
+  BBC Russian: 38 items → 2 relevant
+    NEW: Война в Украине: власти Подмосковья сообщили о пострадавших при налете дронов, о
+    NEW: Война в Украине: власти Подмосковья сообщили о пострадавших при налете дронов, о
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 2 relevant
-  TG:Baza: 15 items → 0 relevant
-  TG:SHOT: 11 items → 0 relevant
-  TG:Rybar: 15 items → 0 relevant
-  TG:Astra: 13 items → 0 relevant
+  The Insider: 50 items → 1 relevant
+    NEW: Беспилотник попал в склад Wildberries в Подмосковье. Тысячи человек остались без
+  TG:Baza: 17 items → 0 relevant
+  TG:SHOT: 13 items → 0 relevant
+  TG:Rybar: 17 items → 0 relevant
+  TG:Astra: 11 items → 1 relevant
+    NEW: ↩️🖼 Склад Wildberries на территории «Атлант-Парка» не загорелся после попадания 
   TG:Readovka: 17 items → 0 relevant
-  TG:Obzor: 8 items → 1 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  TG:Obzor: 15 items → 1 relevant
+    NEW: 🖼 В Подмосковье при атаке беспилотников пострадали три человека, в том числе 10-
+
+Sending 6 articles to Claude Haiku...
+Claude: in=5974 out=4965 tokens
+Summary: 18 серпня нововідкритий удар на склад WB в Раменськ/Атлант-Парк при масованій атаці 620+ дронів на Московський регіон. 3 пораненої цивільних. Новий статус: hit для складу Атлант-Парк.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 41 warehouses, {'burned': 21, 'ok': 15, 'hit': 5}
+
+Done ✓
