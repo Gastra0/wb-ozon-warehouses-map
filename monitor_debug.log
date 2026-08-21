@@ -1,25 +1,23 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-20 07:34 UTC] WB Monitor starting
+[2026-08-21 07:36 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 12 seen UIDs
+Loaded 15 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Путин прокомментировал атаки ВСУ на склады Wildberries (не называя Wildberries).
-  BBC Russian: 36 items → 0 relevant
+    NEW: «Коммерсант»: российские издательства сократили тиражи из-за украинских атак на 
+  BBC Russian: 37 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 2 relevant
-    NEW: Путин не увидел «критических последствий» от атак на РФ. The Insider оценил масш
-    NEW: Россиян вербуют на войну с Украиной с помощью вакансий охранников складов Wildbe
-  TG:Baza: 13 items → 0 relevant
-  TG:SHOT: 11 items → 0 relevant
-  TG:Rybar: 16 items → 0 relevant
-  TG:Astra: 11 items → 0 relevant
-  TG:Readovka: 18 items → 0 relevant
-  TG:Obzor: 8 items → 0 relevant
+  The Insider: 50 items → 0 relevant
+  TG:Baza: 18 items → 0 relevant
+  TG:SHOT: 9 items → 0 relevant
+  TG:Rybar: 14 items → 0 relevant
+  TG:Astra: 8 items → 0 relevant
+  TG:Readovka: 19 items → 0 relevant
+  TG:Obzor: 16 items → 0 relevant
 
-Sending 3 articles to Claude Haiku...
-Claude: in=5473 out=4961 tokens
-Summary: Підтвердження кампанії: 21 об'єкт WB у 17 регіонах під ударом. Путін визнав необхідність державної допомоги на відновлення логістичних потужностей. Вербування охранників на склади для військових цілей.
+Sending 1 articles to Claude Haiku...
+Claude: in=5291 out=4899 tokens
+Summary: No new damage confirmed. Article discusses impact on Russian publishing industry due to WB warehouse strikes.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
