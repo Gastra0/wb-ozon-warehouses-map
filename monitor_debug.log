@@ -1,26 +1,27 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-21 07:36 UTC] WB Monitor starting
+[2026-08-22 07:25 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 15 seen UIDs
-  Meduza: 30 items → 1 relevant
-    NEW: «Коммерсант»: российские издательства сократили тиражи из-за украинских атак на 
-  BBC Russian: 37 items → 0 relevant
+Loaded 16 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 35 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 0 relevant
-  TG:Baza: 18 items → 0 relevant
-  TG:SHOT: 9 items → 0 relevant
-  TG:Rybar: 14 items → 0 relevant
-  TG:Astra: 8 items → 0 relevant
-  TG:Readovka: 19 items → 0 relevant
-  TG:Obzor: 16 items → 0 relevant
+  The Insider: 50 items → 1 relevant
+    NEW: В России впервые атакован склад Ozon — после серии ударов по Wildberries
+  TG:Baza: 11 items → 0 relevant
+  TG:SHOT: 14 items → 0 relevant
+  TG:Rybar: 16 items → 0 relevant
+  TG:Astra: 5 items → 1 relevant
+    NEW: ↩️🎬🖼 Еще кадры последствий первого удара ВСУ по крупнейшему в Поволжье распред..
+  TG:Readovka: 18 items → 0 relevant
+  TG:Obzor: 10 items → 0 relevant
 
-Sending 1 articles to Claude Haiku...
-Claude: in=5291 out=4899 tokens
-Summary: No new damage confirmed. Article discusses impact on Russian publishing industry due to WB warehouse strikes.
+Sending 2 articles to Claude Haiku...
+Claude: in=5375 out=5085 tokens
+Summary: Перший атакований склад конкурента OZON у Чапаєвську 22 серпня. Добавлено в базу як окремий запис (не WB).
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
-Built index.html: 41 warehouses, {'burned': 21, 'ok': 15, 'hit': 5}
+Built index.html: 42 warehouses, {'burned': 22, 'ok': 15, 'hit': 5}
 
 Done ✓

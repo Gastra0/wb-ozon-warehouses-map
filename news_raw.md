@@ -1,7 +1,11 @@
-# WB Monitor — 2026-08-21
-_Зібрано: 07:36 UTC · нових: 1_
+# WB Monitor — 2026-08-22
+_Зібрано: 07:25 UTC · нових: 2_
 
-## [Meduza] «Коммерсант»: российские издательства сократили тиражи из-за украинских атак на склады Wildberries (там хранятся их книги)
-**Дата:** Fri, 21 Aug 2026 10:06:37 +0300
-**Посилання:** https://meduza.io/news/2026/08/21/kommersant-rossiyskie-izdatelstva-sokratili-tirazhi-iz-za-ukrainskih-atak-na-sklady-wildberries-tam-hranyatsya-ih-knigi
+## [The Insider] В России впервые атакован склад Ozon — после серии ударов по Wildberries
+**Дата:** Sat, 22 Aug 2026 06:32:24 +0000
+**Посилання:** https://theins.ru/news/296318
+
+## [TG:Astra] ↩️🎬🖼 Еще кадры последствий первого удара ВСУ по крупнейшему в Поволжье распред...
+**Дата:** Sat, 22 Aug 2026 06:41:06 GMT
+**Посилання:** https://t.me/astrapress/122874
 
