@@ -1,23 +1,24 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-23 07:27 UTC] WB Monitor starting
+[2026-08-24 07:52 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 18 seen UIDs
+Loaded 19 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Война. 1641-й день. Украина после месяца атак на Wildberries впервые ударила по 
-  BBC Russian: 35 items → 0 relevant
+    NEW: Минфин предложил поддержать Wildberries отсрочкой от уплаты налогов и приостанов
+  BBC Russian: 36 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 1 relevant
-  TG:Baza: 17 items → 0 relevant
-  TG:SHOT: 16 items → 0 relevant
-  TG:Rybar: 14 items → 0 relevant
-  TG:Astra: 6 items → 0 relevant
-  TG:Readovka: 15 items → 0 relevant
-  TG:Obzor: 16 items → 0 relevant
+  The Insider: 50 items → 2 relevant
+    NEW: Пострадавшим от атак на склады Wildberries продавцам отсрочат уплату налогов и с
+  TG:Baza: 11 items → 0 relevant
+  TG:SHOT: 8 items → 0 relevant
+  TG:Rybar: 15 items → 0 relevant
+  TG:Astra: 10 items → 0 relevant
+  TG:Readovka: 17 items → 0 relevant
+  TG:Obzor: 11 items → 0 relevant
 
-Sending 1 articles to Claude Haiku...
-Claude: in=5506 out=5087 tokens
-Summary: Підтверджено удар по складу OZON у Чапаєвську 22 серпня — перша атака на логістику конкурента WB. Все інше без змін.
+Sending 2 articles to Claude Haiku...
+Claude: in=5532 out=5103 tokens
+Summary: Нові статті від Meduza та The Insider про фінансову підтримку від Мінфіну РФ для WB та компенсацію продавцям — на рівні компанії, без змін статусів конкретних складів.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
