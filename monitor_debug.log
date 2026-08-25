@@ -1,27 +1,26 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-24 07:52 UTC] WB Monitor starting
+[2026-08-25 07:38 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 19 seen UIDs
+Loaded 21 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Минфин предложил поддержать Wildberries отсрочкой от уплаты налогов и приостанов
-  BBC Russian: 36 items → 0 relevant
+    NEW: Вслед за Wildberries Украина начала бить по Ozon — второму крупнейшему маркетпле
+  BBC Russian: 37 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 2 relevant
-    NEW: Пострадавшим от атак на склады Wildberries продавцам отсрочат уплату налогов и с
-  TG:Baza: 11 items → 0 relevant
-  TG:SHOT: 8 items → 0 relevant
-  TG:Rybar: 15 items → 0 relevant
-  TG:Astra: 10 items → 0 relevant
-  TG:Readovka: 17 items → 0 relevant
-  TG:Obzor: 11 items → 0 relevant
+  The Insider: 50 items → 1 relevant
+  TG:Baza: 14 items → 0 relevant
+  TG:SHOT: 13 items → 0 relevant
+  TG:Rybar: 14 items → 0 relevant
+  TG:Astra: 16 items → 0 relevant
+  TG:Readovka: 16 items → 0 relevant
+  TG:Obzor: 14 items → 0 relevant
 
-Sending 2 articles to Claude Haiku...
-Claude: in=5532 out=5103 tokens
-Summary: Нові статті від Meduza та The Insider про фінансову підтримку від Мінфіну РФ для WB та компенсацію продавцям — на рівні компанії, без змін статусів конкретних складів.
+Sending 1 articles to Claude Haiku...
+Claude: in=5554 out=5575 tokens
+Summary: України почали наносити удари по складам OZON після серії атак на Wildberries. За 22-24 серпня підтверджено атаки на OZON в Чапаєвську, Оренбурзі, Адигейську та Махачкалі. Невинномиськ також атакований як склад OZON 24 серпня.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
-Built index.html: 42 warehouses, {'burned': 22, 'ok': 15, 'hit': 5}
+Built index.html: 45 warehouses, {'burned': 25, 'ok': 15, 'hit': 5}
 
 Done ✓
