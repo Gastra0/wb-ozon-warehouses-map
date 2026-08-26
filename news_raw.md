@@ -1,7 +1,55 @@
-# WB Monitor — 2026-08-25
-_Зібрано: 07:38 UTC · нових: 1_
+# WB Monitor — 2026-08-26
+_Зібрано: 07:39 UTC · нових: 13_
 
-## [Meduza] Вслед за Wildberries Украина начала бить по Ozon — второму крупнейшему маркетплейсу России. Его акции упали почти на 30%. Главное
-**Дата:** Mon, 24 Aug 2026 16:02:44 +0300
-**Посилання:** https://meduza.io/feature/2026/08/24/vsled-za-wildberries-ukraina-nachala-bit-po-ozon-vtoromu-krupneyshemu-marketpleysu-rossii-ego-aktsii-upali-pochti-na-30
+## [Meduza] Украинские беспилотники атаковали Липецкую область, погибли два человека. В Тамбовской области после удара вновь горит склад Wildberries
+**Дата:** Wed, 26 Aug 2026 08:13:43 +0300
+**Посилання:** https://meduza.io/news/2026/08/26/ukrainskie-bespilotniki-atakovali-lipetskuyu-oblast-pogibli-dva-cheloveka-v-tambovskoy-oblasti-posle-udara-vnov-gorit-sklad-wildberries
+
+## [BBC Russian] Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кремль прокомментировал визит главы ЦРУ в Москву
+**Дата:** 
+**Посилання:** https://www.bbc.co.uk/russian/live/cp8x50y7gn0t?at_medium=RSS&at_campaign=rss
+
+## [BBC Russian] Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кремль прокомментировал визит главы ЦРУ в Москву
+**Дата:** 
+**Посилання:** https://www.bbc.co.uk/russian/live/cp8x50y7gn0t?at_medium=RSS&at_campaign=rss
+
+## [Ukrainska Pravda] Дрони атакували НПЗ в російському Кстово: спалахнула пожежа
+**Дата:** Wed, 26 Aug 2026 05:55:00 +0300
+**Посилання:** https://www.pravda.com.ua/news/2026/08/26/8050324/
+
+## [Ukrainska Pravda] В Росії після атаки дронів горить один із головних складів Wildberries
+**Дата:** Wed, 26 Aug 2026 03:57:00 +0300
+**Посилання:** https://www.pravda.com.ua/news/2026/08/26/8050322/
+
+## [The Insider] Склад Wildberries в Тамбовской области попал под удар беспилотников. Местные власти попросили жителей не выходить на улицу из-за пожара
+**Дата:** Wed, 26 Aug 2026 07:31:49 +0000
+**Посилання:** https://theins.ru/news/296433
+
+## [TG:Astra] ↩️🎬 Так сейчас выглядит склад Wildberries в Котовске Тамбовской области после ночной ...
+**Дата:** Wed, 26 Aug 2026 06:59:01 GMT
+**Посилання:** https://t.me/astrapress/123315
+
+## [TG:Astra] ↩️🖼 Минобороны РФ сообщило об уничтожении 426 беспилотников над российскими реги...
+**Дата:** Wed, 26 Aug 2026 05:30:44 GMT
+**Посилання:** https://t.me/astrapress/123307
+
+## [TG:Astra] ↩️🎬🖼 Мэр Котовска попросил жителей в ближайшие два дня не выходить из домов из-з...
+**Дата:** Wed, 26 Aug 2026 05:00:29 GMT
+**Посилання:** https://t.me/astrapress/123299
+
+## [TG:Readovka] Вражеские дроны вновь атаковали гражданских в нескольких регионах России, есть п...
+**Дата:** Wed, 26 Aug 2026 07:27:56 GMT
+**Посилання:** https://t.me/readovkanews/114347
+
+## [TG:Obzor] Правительство утвердило меры поддержки бизнеса, пострадавшего из-за атак на объе...
+**Дата:** Wed, 26 Aug 2026 07:14:38 GMT
+**Посилання:** https://t.me/ostorozhno_novosti/54037
+
+## [TG:Obzor] ↩️🎬 Мэр Котовска, где загорелся склад WB после атаки БПЛА, призвал жителей не выхо...
+**Дата:** Wed, 26 Aug 2026 04:38:00 GMT
+**Посилання:** https://t.me/ostorozhno_novosti/54030
+
+## [TG:Obzor] ↩️ В Котовске загорелся склад WB после атаки БПЛА. Один человек пострадал.
+**Дата:** Wed, 26 Aug 2026 04:15:27 GMT
+**Посилання:** https://t.me/ostorozhno_novosti/54028
 

@@ -1,26 +1,38 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-25 07:38 UTC] WB Monitor starting
+[2026-08-26 07:39 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 21 seen UIDs
+Loaded 22 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Вслед за Wildberries Украина начала бить по Ozon — второму крупнейшему маркетпле
-  BBC Russian: 37 items → 0 relevant
-  Ukrainska Pravda: 20 items → 0 relevant
+    NEW: Украинские беспилотники атаковали Липецкую область, погибли два человека. В Тамб
+  BBC Russian: 36 items → 2 relevant
+    NEW: Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кр
+    NEW: Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кр
+  Ukrainska Pravda: 20 items → 2 relevant
+    NEW: Дрони атакували НПЗ в російському Кстово: спалахнула пожежа
+    NEW: В Росії після атаки дронів горить один із головних складів Wildberries
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 1 relevant
+    NEW: Склад Wildberries в Тамбовской области попал под удар беспилотников. Местные вла
   TG:Baza: 14 items → 0 relevant
-  TG:SHOT: 13 items → 0 relevant
-  TG:Rybar: 14 items → 0 relevant
-  TG:Astra: 16 items → 0 relevant
-  TG:Readovka: 16 items → 0 relevant
-  TG:Obzor: 14 items → 0 relevant
+  TG:SHOT: 12 items → 0 relevant
+  TG:Rybar: 16 items → 0 relevant
+  TG:Astra: 11 items → 3 relevant
+    NEW: ↩️🎬 Так сейчас выглядит склад Wildberries в Котовске Тамбовской области после но
+    NEW: ↩️🖼 Минобороны РФ сообщило об уничтожении 426 беспилотников над российскими реги
+    NEW: ↩️🎬🖼 Мэр Котовска попросил жителей в ближайшие два дня не выходить из домов из-з
+  TG:Readovka: 17 items → 1 relevant
+    NEW: Вражеские дроны вновь атаковали гражданских в нескольких регионах России, есть п
+  TG:Obzor: 12 items → 3 relevant
+    NEW: Правительство утвердило меры поддержки бизнеса, пострадавшего из-за атак на объе
+    NEW: ↩️🎬 Мэр Котовска, где загорелся склад WB после атаки БПЛА, призвал жителей не вы
+    NEW: ↩️ В Котовске загорелся склад WB после атаки БПЛА. Один человек пострадал.
 
-Sending 1 articles to Claude Haiku...
-Claude: in=5554 out=5575 tokens
-Summary: України почали наносити удари по складам OZON після серії атак на Wildberries. За 22-24 серпня підтверджено атаки на OZON в Чапаєвську, Оренбурзі, Адигейську та Махачкалі. Невинномиськ також атакований як склад OZON 24 серпня.
+Sending 13 articles to Claude Haiku...
+Claude: in=7460 out=5763 tokens
+Summary: 26 серпня: Новий удар по Котовську (Тамбовська обл.) — масштабна пожежа на повторно атакованому складі WB. Додано новий об'єкт: Кстово (Нижегородська обл.) — атака на НПЗ і логістичний центр WB з вибухами й пожежею. (Meduza, BBC Russian, Ukrainska Pravda, Astra)
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
-Built index.html: 45 warehouses, {'burned': 25, 'ok': 15, 'hit': 5}
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
 
 Done ✓
