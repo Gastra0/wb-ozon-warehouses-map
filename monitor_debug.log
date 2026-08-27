@@ -1,35 +1,27 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-26 07:39 UTC] WB Monitor starting
+[2026-08-27 18:01 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 22 seen UIDs
+Loaded 34 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: Украинские беспилотники атаковали Липецкую область, погибли два человека. В Тамб
-  BBC Russian: 36 items → 2 relevant
-    NEW: Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кр
-    NEW: Война в Украине: дроны второй раз атаковали Wildberries в Тамбовской области, Кр
-  Ukrainska Pravda: 20 items → 2 relevant
-    NEW: Дрони атакували НПЗ в російському Кстово: спалахнула пожежа
-    NEW: В Росії після атаки дронів горить один із головних складів Wildberries
+    NEW: Forbes опубликовал рейтинг богатейших женщин России. Татьяна Ким осталась лидеро
+  BBC Russian: 40 items → 0 relevant
+  Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 1 relevant
-    NEW: Склад Wildberries в Тамбовской области попал под удар беспилотников. Местные вла
-  TG:Baza: 14 items → 0 relevant
-  TG:SHOT: 12 items → 0 relevant
-  TG:Rybar: 16 items → 0 relevant
-  TG:Astra: 11 items → 3 relevant
-    NEW: ↩️🎬 Так сейчас выглядит склад Wildberries в Котовске Тамбовской области после но
-    NEW: ↩️🖼 Минобороны РФ сообщило об уничтожении 426 беспилотников над российскими реги
-    NEW: ↩️🎬🖼 Мэр Котовска попросил жителей в ближайшие два дня не выходить из домов из-з
-  TG:Readovka: 17 items → 1 relevant
-    NEW: Вражеские дроны вновь атаковали гражданских в нескольких регионах России, есть п
-  TG:Obzor: 12 items → 3 relevant
-    NEW: Правительство утвердило меры поддержки бизнеса, пострадавшего из-за атак на объе
-    NEW: ↩️🎬 Мэр Котовска, где загорелся склад WB после атаки БПЛА, призвал жителей не вы
-    NEW: ↩️ В Котовске загорелся склад WB после атаки БПЛА. Один человек пострадал.
+  The Insider: 50 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
+  TG:Baza: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
+  TG:SHOT: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
+  TG:Rybar: 0 items → 0 relevant
+  TG:Astra: 14 items → 0 relevant
+  TG:Readovka: 19 items → 0 relevant
+  TG:Obzor: 10 items → 1 relevant
+    NEW: 🖼 Два брата погибли при ракетной атаке в Белгородской области — они приехали в п
 
-Sending 13 articles to Claude Haiku...
-Claude: in=7460 out=5763 tokens
-Summary: 26 серпня: Новий удар по Котовську (Тамбовська обл.) — масштабна пожежа на повторно атакованому складі WB. Додано новий об'єкт: Кстово (Нижегородська обл.) — атака на НПЗ і логістичний центр WB з вибухами й пожежею. (Meduza, BBC Russian, Ukrainska Pravda, Astra)
+Sending 2 articles to Claude Haiku...
+Claude: in=6392 out=5716 tokens
+Summary: Немає нових атак на складів WB за 27 серпня. Forbes повідомив про втрати капіталу Татяни Ким на 2 млрд дол. через удари по Wildberries. Всі дані при 26 серпня актуальні.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
