@@ -1,30 +1,16 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-27 18:01 UTC] WB Monitor starting
+[2026-08-28 19:10 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 34 seen UIDs
-  Meduza: 30 items → 1 relevant
-    NEW: Forbes опубликовал рейтинг богатейших женщин России. Татьяна Ким осталась лидеро
-  BBC Russian: 40 items → 0 relevant
+Loaded 36 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 38 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
-  TG:Baza: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
-  TG:SHOT: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
-  TG:Rybar: 0 items → 0 relevant
-  TG:Astra: 14 items → 0 relevant
-  TG:Readovka: 19 items → 0 relevant
-  TG:Obzor: 10 items → 1 relevant
-    NEW: 🖼 Два брата погибли при ракетной атаке в Белгородской области — они приехали в п
-
-Sending 2 articles to Claude Haiku...
-Claude: in=6392 out=5716 tokens
-Summary: Немає нових атак на складів WB за 27 серпня. Forbes повідомив про втрати капіталу Татяни Ким на 2 млрд дол. через удари по Wildberries. Всі дані при 26 серпня актуальні.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  TG:Baza: 13 items → 0 relevant
+  TG:SHOT: 16 items → 0 relevant
+  TG:Rybar: 14 items → 0 relevant
+  TG:Astra: 13 items → 0 relevant
+  TG:Readovka: 17 items → 0 relevant
+  TG:Obzor: 14 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
