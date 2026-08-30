@@ -1,27 +1,20 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-29 12:54 UTC] WB Monitor starting
+[2026-08-30 12:28 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 36 seen UIDs
+Loaded 37 seen UIDs
   Meduza: 30 items → 0 relevant
-  BBC Russian: 42 items → 0 relevant
+  BBC Russian: 39 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
-  TG:Baza: 0 items → 0 relevant
-  TG:SHOT: 11 items → 0 relevant
-  TG:Rybar: 16 items → 1 relevant
-    NEW: 🖼 📝Ozon под прицелом📝
-  TG:Astra: 12 items → 0 relevant
-  TG:Readovka: 19 items → 0 relevant
-  TG:Obzor: 5 items → 0 relevant
-
-Sending 1 articles to Claude Haiku...
-Claude: in=6047 out=5700 tokens
-Summary: Стаття від Rybar (29 серпня) повідомляє про продовження ударів по OZON після атак WB. Нових локацій не виявлено. База даних залишається актуальною.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  TG:Baza: 14 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
+  TG:SHOT: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
+  TG:Rybar: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
+  TG:Astra: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
+  TG:Readovka: 0 items → 0 relevant
+  TG:Obzor: 11 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
