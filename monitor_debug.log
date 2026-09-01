@@ -1,22 +1,29 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-08-31 14:42 UTC] WB Monitor starting
+[2026-09-01 12:16 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 37 seen UIDs
-  Meduza: 30 items → 0 relevant
-  BBC Russian: 44 items → 0 relevant
+  Meduza: 30 items → 1 relevant
+    NEW: «Спасибо от парней из зоны СВО». «Медуза» проверила, продолжают ли Ozon и Wildbe
+  BBC Russian: 38 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
   TG:Baza: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
-  TG:SHOT: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
-  TG:Rybar: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
-  TG:Astra: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
-  TG:Readovka: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
-  TG:Obzor: 0 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  TG:SHOT: 14 items → 0 relevant
+  TG:Rybar: 9 items → 1 relevant
+    NEW: 🖼 📝Хроника специальной военной операции📝
+  TG:Astra: 9 items → 0 relevant
+  TG:Readovka: 18 items → 0 relevant
+  TG:Obzor: 7 items → 1 relevant
+    NEW: 🖼 Часть селлеров Wildberries пожаловались на задержку выплат со стороны маркетпл
+
+Sending 3 articles to Claude Haiku...
+Claude: in=6616 out=5736 tokens
+Summary: Без нових перевірених влучань на складах WB/OZON. Meduza підтвердила, що обидва маркетплейси продовжують продавати товари для російської армії незважаючи на удари. Селери WB скаржаться на затримки виплат (станом на 1 вересня 2026).
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
+
+Done ✓
