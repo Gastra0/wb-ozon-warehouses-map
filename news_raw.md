@@ -1,15 +1,11 @@
-# WB Monitor — 2026-09-01
-_Зібрано: 12:16 UTC · нових: 3_
+# WB Monitor — 2026-09-02
+_Зібрано: 11:53 UTC · нових: 2_
 
-## [Meduza] «Спасибо от парней из зоны СВО». «Медуза» проверила, продолжают ли Ozon и Wildberries, несмотря на украинские удары, продавать товары для российской армии (да, продолжают)
-**Дата:** Tue, 01 Sep 2026 08:01:41 +0300
-**Посилання:** https://meduza.io/feature/2026/09/01/spasibo-ot-parney-iz-zony-svo
+## [Meduza] Что означает угроза Зеленского закрыть небо над Россией? И по каким целям могут ударить ВСУ после НПЗ и складов Ozon и Wildberries? Новый этап дальнобойной кампании Украины
+**Дата:** Wed, 02 Sep 2026 08:08:54 +0300
+**Посилання:** https://meduza.io/feature/2026/09/02/chto-oznachaet-ugroza-zelenskogo-zakryt-nebo-nad-rossiey-i-po-kakim-tselyam-mogut-udarit-vsu-posle-npz-i-skladov-ozon-i-wildberries
 
-## [TG:Rybar] 🖼 📝Хроника специальной военной операции📝
-**Дата:** Mon, 31 Aug 2026 21:14:38 GMT
-**Посилання:** https://t.me/rybar/82803
-
-## [TG:Obzor] 🖼 Часть селлеров Wildberries пожаловались на задержку выплат со стороны маркетплейса.
-**Дата:** Tue, 01 Sep 2026 12:13:38 GMT
-**Посилання:** https://t.me/ostorozhno_novosti/54308
+## [TG:Obzor] 🖼 «Сикс-севен», «БПЛА», «Колобок», «бензин» и «блокировка» претендуют на звание «...
+**Дата:** Wed, 02 Sep 2026 10:00:02 GMT
+**Посилання:** https://t.me/ostorozhno_novosti/54353
 
