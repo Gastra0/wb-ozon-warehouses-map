@@ -1,28 +1,22 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-02 11:53 UTC] WB Monitor starting
+[2026-09-03 11:52 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 40 seen UIDs
-  Meduza: 30 items → 1 relevant
-    NEW: Что означает угроза Зеленского закрыть небо над Россией? И по каким целям могут 
-  BBC Russian: 40 items → 0 relevant
+Loaded 42 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 41 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
   TG:Baza: 0 items → 0 relevant
-  TG:SHOT: 15 items → 0 relevant
-  TG:Rybar: 18 items → 0 relevant
-  TG:Astra: 17 items → 0 relevant
-  TG:Readovka: 16 items → 0 relevant
-  TG:Obzor: 14 items → 1 relevant
-    NEW: 🖼 «Сикс-севен», «БПЛА», «Колобок», «бензин» и «блокировка» претендуют на звание 
-
-Sending 2 articles to Claude Haiku...
-Claude: in=6498 out=5770 tokens
-Summary: Дата Meduza від 2 вересня 2026 говорить про масштабну кампанію — удари по НПЗ, авіабазах, ТЕЦ, НПЗ в Усть-Лузі, базах дронів. Основні цілі — складиWB та OZON залишаються. Нових ударів по складам у цій статті не згадано, але вона підтверджує продовження кампанії.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
+  TG:SHOT: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
+  TG:Rybar: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
+  TG:Astra: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
+  TG:Readovka: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
+  TG:Obzor: 0 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
