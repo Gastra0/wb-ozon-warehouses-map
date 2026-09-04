@@ -1,12 +1,14 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-03 11:52 UTC] WB Monitor starting
+[2026-09-04 11:55 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 42 seen UIDs
-  Meduza: 30 items → 0 relevant
+  Meduza: 30 items → 1 relevant
+    NEW: В России из-за украинских ударов по складам маркетплейсов сгорели 15 миллионов к
   BBC Russian: 41 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 0 relevant
+  The Insider: 50 items → 1 relevant
+    NEW: Власти Саратовской области предложили обнулить два налога селлерам Wildberries п
   fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
   TG:Baza: 0 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
@@ -19,4 +21,13 @@ Loaded 42 seen UIDs
   TG:Readovka: 0 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
   TG:Obzor: 0 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+
+Sending 2 articles to Claude Haiku...
+Claude: in=6210 out=5795 tokens
+Summary: Саратов: додано інформацію про пропозицію обнулити два податки селлерам WB від місцевих властей 3 вересня. Загальна загроза: статистика дохідної книжкової промисловості ремонту показує 15 млн книг згоріло і 6 млрд рублів збитків від бударів по складах маркетплейсів.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
+
+Done ✓
