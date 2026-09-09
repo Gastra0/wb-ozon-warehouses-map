@@ -1,18 +1,32 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-08 11:55 UTC] WB Monitor starting
+[2026-09-09 12:05 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 44 seen UIDs
-  Meduza: 30 items → 0 relevant
-  BBC Russian: 38 items → 0 relevant
+  Meduza: 30 items → 1 relevant
+    NEW: «Киев дышит из последних сил» . Армия РФ усилила атаки на украинскую столицу: он
+  BBC Russian: 36 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 0 relevant
-  TG:Baza: 13 items → 0 relevant
+  The Insider: 50 items → 1 relevant
+    NEW: Продавцы Wildberries пожаловались Мишустину на задержку 20 млрд рублей. В компан
+  TG:Baza: 15 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
   TG:SHOT: 0 items → 0 relevant
-  TG:Rybar: 14 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
+  TG:Rybar: 0 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
   TG:Astra: 0 items → 0 relevant
-  TG:Readovka: 15 items → 0 relevant
-  TG:Obzor: 13 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
+  TG:Readovka: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
+  TG:Obzor: 0 items → 0 relevant
+
+Sending 2 articles to Claude Haiku...
+Claude: in=6266 out=5816 tokens
+Summary: Нові статті не містять інформації про атаки на склади WB чи OZON. Meduza повідомляє про активізацію атак РФ на Київ з 27 серпня (цивільні об'єкти). The Insider відзначає, що WB посилаються на DDoS-атаки під час затримки виплат 20 млрд руб. селлерам (9 вересня). Бази даних складів залишаються без змін.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
+
+Done ✓
