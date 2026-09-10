@@ -1,15 +1,15 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-09 12:05 UTC] WB Monitor starting
+[2026-09-10 11:59 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 44 seen UIDs
+Loaded 46 seen UIDs
   Meduza: 30 items → 1 relevant
-    NEW: «Киев дышит из последних сил» . Армия РФ усилила атаки на украинскую столицу: он
-  BBC Russian: 36 items → 0 relevant
+    NEW: Из-за ударов дронов продавцы российских маркетплейсов стали хранить товары на со
+  BBC Russian: 39 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 1 relevant
-    NEW: Продавцы Wildberries пожаловались Мишустину на задержку 20 млрд рублей. В компан
-  TG:Baza: 15 items → 0 relevant
+    NEW: После атак дронов доля селлеров Wildberries, работающих со своих складов, выросл
+  TG:Baza: 9 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
   TG:SHOT: 0 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
@@ -22,8 +22,8 @@ Loaded 44 seen UIDs
   TG:Obzor: 0 items → 0 relevant
 
 Sending 2 articles to Claude Haiku...
-Claude: in=6266 out=5816 tokens
-Summary: Нові статті не містять інформації про атаки на склади WB чи OZON. Meduza повідомляє про активізацію атак РФ на Київ з 27 серпня (цивільні об'єкти). The Insider відзначає, що WB посилаються на DDoS-атаки під час затримки виплат 20 млрд руб. селлерам (9 вересня). Бази даних складів залишаються без змін.
+Claude: in=6153 out=5768 tokens
+Summary: Нові статті від 10 вересня 2026 р. підтверджують масштабний вплив атак дронів: 97% селлерів WB перейшли на власні склади замість використання компанійської логістики. Конкретних нових атак на склади не повідомляється.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
