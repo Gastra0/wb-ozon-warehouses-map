@@ -1,32 +1,16 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-10 11:59 UTC] WB Monitor starting
+[2026-09-11 11:58 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 46 seen UIDs
-  Meduza: 30 items → 1 relevant
-    NEW: Из-за ударов дронов продавцы российских маркетплейсов стали хранить товары на со
-  BBC Russian: 39 items → 0 relevant
+Loaded 48 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 35 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 1 relevant
-    NEW: После атак дронов доля селлеров Wildberries, работающих со своих складов, выросл
-  TG:Baza: 9 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
-  TG:SHOT: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
-  TG:Rybar: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
-  TG:Astra: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
-  TG:Readovka: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
-  TG:Obzor: 0 items → 0 relevant
-
-Sending 2 articles to Claude Haiku...
-Claude: in=6153 out=5768 tokens
-Summary: Нові статті від 10 вересня 2026 р. підтверджують масштабний вплив атак дронів: 97% селлерів WB перейшли на власні склади замість використання компанійської логістики. Конкретних нових атак на склади не повідомляється.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  TG:Baza: 15 items → 0 relevant
+  TG:SHOT: 12 items → 0 relevant
+  TG:Rybar: 11 items → 0 relevant
+  TG:Astra: 14 items → 0 relevant
+  TG:Readovka: 18 items → 0 relevant
+  TG:Obzor: 11 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
