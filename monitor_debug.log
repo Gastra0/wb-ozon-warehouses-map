@@ -1,30 +1,16 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-19 11:43 UTC] WB Monitor starting
+[2026-09-20 11:56 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 52 seen UIDs
+Loaded 54 seen UIDs
   Meduza: 30 items → 0 relevant
   BBC Russian: 39 items → 1 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  TG:Baza: 18 items → 2 relevant
-    NEW: Более 200 тысяч продавцов получат выплаты за товары, пострадавшие в результате а
-    NEW: Для малого и среднего бизнеса стало проще выстраивать логистику.
-  TG:SHOT: 10 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
-  TG:Rybar: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
-  TG:Astra: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
-  TG:Readovka: 0 items → 0 relevant
-  TG:Obzor: 19 items → 0 relevant
-
-Sending 2 articles to Claude Haiku...
-Claude: in=6349 out=5721 tokens
-Summary: No changes to warehouse statuses. Articles report WB's compensation program for 200k+ sellers affected by drone attacks and expansion of 100+ new logistics points (PPT/PFC), but no new damage or operational status updates for specific warehouses.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  TG:Baza: 17 items → 0 relevant
+  TG:SHOT: 13 items → 0 relevant
+  TG:Rybar: 15 items → 0 relevant
+  TG:Astra: 11 items → 0 relevant
+  TG:Readovka: 16 items → 0 relevant
+  TG:Obzor: 15 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
