@@ -1,17 +1,26 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-24 12:27 UTC] WB Monitor starting
+[2026-09-25 12:29 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 54 seen UIDs
-  Meduza: 30 items → 0 relevant
-  BBC Russian: 36 items → 1 relevant
+  Meduza: 30 items → 1 relevant
+    NEW: «Вот так»: военный маркетплейс «Рой.Маркет», который запустили на фоне ударов по
+  BBC Russian: 40 items → 1 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
-  TG:Baza: 0 items → 0 relevant
-  TG:SHOT: 9 items → 0 relevant
+  TG:Baza: 17 items → 0 relevant
+  TG:SHOT: 10 items → 0 relevant
   TG:Rybar: 15 items → 0 relevant
-  TG:Astra: 12 items → 0 relevant
-  TG:Readovka: 14 items → 0 relevant
-  TG:Obzor: 14 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  TG:Astra: 9 items → 0 relevant
+  TG:Readovka: 16 items → 0 relevant
+  TG:Obzor: 9 items → 0 relevant
+
+Sending 1 articles to Claude Haiku...
+Claude: in=6132 out=5712 tokens
+Summary: No new warehouse damage confirmed. Article discusses Rоy.Market (military marketplace launched mid-August) associated with Medvedev's circle, contextualizing the warehouse attack campaign but not reporting new targets.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
+
+Done ✓
