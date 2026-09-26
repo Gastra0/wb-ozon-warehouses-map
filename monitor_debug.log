@@ -1,23 +1,24 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-25 12:29 UTC] WB Monitor starting
+[2026-09-26 11:59 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 54 seen UIDs
-  Meduza: 30 items → 1 relevant
-    NEW: «Вот так»: военный маркетплейс «Рой.Маркет», который запустили на фоне ударов по
-  BBC Russian: 40 items → 1 relevant
+Loaded 55 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 38 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  TG:Baza: 17 items → 0 relevant
-  TG:SHOT: 10 items → 0 relevant
-  TG:Rybar: 15 items → 0 relevant
-  TG:Astra: 9 items → 0 relevant
-  TG:Readovka: 16 items → 0 relevant
-  TG:Obzor: 9 items → 0 relevant
+  TG:Baza: 16 items → 0 relevant
+  TG:SHOT: 7 items → 0 relevant
+  TG:Rybar: 14 items → 1 relevant
+    NEW: 🎬 📝И президент оценил «Герани»📝
+  TG:Astra: 11 items → 0 relevant
+  TG:Readovka: 13 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
+  TG:Obzor: 0 items → 0 relevant
 
 Sending 1 articles to Claude Haiku...
-Claude: in=6132 out=5712 tokens
-Summary: No new warehouse damage confirmed. Article discusses Rоy.Market (military marketplace launched mid-August) associated with Medvedev's circle, contextualizing the warehouse attack campaign but not reporting new targets.
+Claude: in=6082 out=5701 tokens
+Summary: No warehouse status changes detected from provided article. Article mentions Putin's assessment of drone operations but contains no confirmed new strikes on WB/OZON warehouses.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched

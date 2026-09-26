@@ -1,7 +1,7 @@
-# WB Monitor — 2026-09-25
-_Зібрано: 12:29 UTC · нових: 1_
+# WB Monitor — 2026-09-26
+_Зібрано: 11:59 UTC · нових: 1_
 
-## [Meduza] «Вот так»: военный маркетплейс «Рой.Маркет», который запустили на фоне ударов по Wildberries и «Озон», связан с Дмитрием Медведевым
-**Дата:** Thu, 24 Sep 2026 19:14:57 +0300
-**Посилання:** https://meduza.io/news/2026/09/24/vot-tak-voennyy-marketpleys-roy-market-kotoryy-zapustili-na-fone-udarov-po-wildberries-i-ozon-svyazan-s-dmitriem-medvedevym
+## [TG:Rybar] 🎬 📝И президент оценил «Герани»📝
+**Дата:** Fri, 25 Sep 2026 19:40:01 GMT
+**Посилання:** https://t.me/rybar/83483
 
