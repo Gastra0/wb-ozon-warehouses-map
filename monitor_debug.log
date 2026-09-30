@@ -1,9 +1,9 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-09-29 13:38 UTC] WB Monitor starting
+[2026-09-30 13:14 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 56 seen UIDs
   Meduza: 30 items → 0 relevant
-  BBC Russian: 37 items → 0 relevant
+  BBC Russian: 42 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
