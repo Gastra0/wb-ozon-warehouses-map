@@ -1,23 +1,24 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-10-01 14:05 UTC] WB Monitor starting
+[2026-10-02 13:25 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 56 seen UIDs
+Loaded 57 seen UIDs
   Meduza: 30 items → 0 relevant
-  BBC Russian: 35 items → 0 relevant
+  BBC Russian: 39 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  TG:Baza: 18 items → 0 relevant
-  TG:SHOT: 14 items → 0 relevant
-  TG:Rybar: 13 items → 1 relevant
-    NEW: 🎬 📝Заговорили о мире📝
-  TG:Astra: 13 items → 0 relevant
-  TG:Readovka: 14 items → 0 relevant
-  TG:Obzor: 9 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
+  TG:Baza: 0 items → 0 relevant
+  TG:SHOT: 8 items → 0 relevant
+  TG:Rybar: 16 items → 1 relevant
+    NEW: 📝Грозились горящей Москвой📝
+  TG:Astra: 10 items → 0 relevant
+  TG:Readovka: 17 items → 0 relevant
+  TG:Obzor: 10 items → 0 relevant
 
 Sending 1 articles to Claude Haiku...
-Claude: in=6072 out=5695 tokens
-Summary: No new warehouse strikes confirmed in article dated 1 Oct 2026. Article is about peace discussions without specific infrastructure damage reports.
+Claude: in=6085 out=5735 tokens
+Summary: Стаття Rybar від 2 жовтня содержить риторику про атаки на Київ, але не додає нових підтвердженх даних про склади Wildberries у Росії. Без змін до баз даних.
 Saved wh_data.json
 Rebuilding index.html...
 GeoJSON: fetched
