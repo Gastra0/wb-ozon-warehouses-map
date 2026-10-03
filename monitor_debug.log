@@ -1,7 +1,7 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-10-02 13:25 UTC] WB Monitor starting
+[2026-10-03 12:10 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 57 seen UIDs
+Loaded 58 seen UIDs
   Meduza: 30 items → 0 relevant
   BBC Russian: 39 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
@@ -9,19 +9,13 @@ Loaded 57 seen UIDs
   The Insider: 50 items → 0 relevant
   fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
   TG:Baza: 0 items → 0 relevant
-  TG:SHOT: 8 items → 0 relevant
-  TG:Rybar: 16 items → 1 relevant
-    NEW: 📝Грозились горящей Москвой📝
-  TG:Astra: 10 items → 0 relevant
-  TG:Readovka: 17 items → 0 relevant
-  TG:Obzor: 10 items → 0 relevant
-
-Sending 1 articles to Claude Haiku...
-Claude: in=6085 out=5735 tokens
-Summary: Стаття Rybar від 2 жовтня содержить риторику про атаки на Київ, але не додає нових підтвердженх даних про склади Wildberries у Росії. Без змін до баз даних.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
+  TG:SHOT: 0 items → 0 relevant
+  TG:Rybar: 16 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
+  TG:Astra: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
+  TG:Readovka: 0 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
+  TG:Obzor: 0 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
