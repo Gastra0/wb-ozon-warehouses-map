@@ -1,32 +1,16 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-10-19 14:14 UTC] WB Monitor starting
+[2026-10-20 12:27 UTC] WB Monitor starting
 DATA_FILE exists: True
-Loaded 61 seen UIDs
-  Meduza: 30 items → 2 relevant
-    NEW: Россия активно бьет по заводам и мостам в Украине — выдержит ли украинская эконо
-    NEW: На Wildberries зарабатывали сотни тысяч россиян. Три месяца назад ВСУ впервые уд
-  BBC Russian: 36 items → 0 relevant
+Loaded 63 seen UIDs
+  Meduza: 30 items → 0 relevant
+  BBC Russian: 39 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
-  TG:Baza: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
-  TG:SHOT: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/rybar: The read operation timed out
-  TG:Rybar: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/astrapress: The read operation timed out
-  TG:Astra: 0 items → 0 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/readovkanews: The read operation timed out
-  TG:Readovka: 0 items → 0 relevant
-  TG:Obzor: 16 items → 0 relevant
-
-Sending 2 articles to Claude Haiku...
-Claude: in=6498 out=5767 tokens
-Summary: Ні нових ударів по складам не підтверджено. Стан баз даних актуальний на основі архівних даних серпня 2026. Аналітика Meduza від 19 жовтня 2026 підтверджує масштаб втрат WB і Ozon від атак ВСУ з липня-серпня.
-Saved wh_data.json
-Rebuilding index.html...
-GeoJSON: fetched
-Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
-
-Done ✓
+  TG:Baza: 16 items → 0 relevant
+  TG:SHOT: 15 items → 0 relevant
+  TG:Rybar: 16 items → 0 relevant
+  TG:Astra: 5 items → 0 relevant
+  TG:Readovka: 18 items → 0 relevant
+  TG:Obzor: 10 items → 0 relevant
+No new articles → no Claude call needed. Exiting cleanly.
