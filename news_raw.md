@@ -1,4 +1,7 @@
-# WB Monitor — 2026-10-20
-_Зібрано: 12:27 UTC · нових: 0_
+# WB Monitor — 2026-10-21
+_Зібрано: 12:37 UTC · нових: 1_
 
-_Нових повідомлень не знайдено._
+## [Meduza] Крупные продавцы после ударов украинских дронов по Wildberries увеличили продажи на Ozon
+**Дата:** Wed, 21 Oct 2026 11:46:19 +0300
+**Посилання:** https://meduza.io/news/2026/10/21/krupnye-prodavtsy-posle-udarov-ukrainskih-dronov-po-wildberries-uvelichili-prodazhi-na-ozon
+
