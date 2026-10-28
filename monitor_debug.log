@@ -1,16 +1,28 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-10-27 12:54 UTC] WB Monitor starting
+[2026-10-28 13:42 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 65 seen UIDs
   Meduza: 30 items → 0 relevant
-  BBC Russian: 38 items → 0 relevant
+  BBC Russian: 37 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  TG:Baza: 14 items → 0 relevant
-  TG:SHOT: 10 items → 0 relevant
+  TG:Baza: 12 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/shot_shot: The read operation timed out
+  TG:SHOT: 0 items → 0 relevant
   TG:Rybar: 18 items → 0 relevant
-  TG:Astra: 16 items → 0 relevant
-  TG:Readovka: 17 items → 0 relevant
-  TG:Obzor: 11 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+  TG:Astra: 17 items → 1 relevant
+    NEW: 🖼 Ozon оценил ущерб от атак беспилотников на 11 логистических центров в 30,1 млр
+  TG:Readovka: 18 items → 0 relevant
+  fetch https://rsshub.rssforever.com/telegram/channel/ostorozhno_novosti: The read operation timed out
+  TG:Obzor: 0 items → 0 relevant
+
+Sending 1 articles to Claude Haiku...
+Claude: in=6124 out=5754 tokens
+Summary: OZON повідомив про оцінку загального збитку в 30,1 млрд рублів від атак дронів на 11 логістичних центрів (Q3 2026). Німецька інформація про кількісні збитки, але конкретних нових атак не підтверджено.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 26, 'ok': 15, 'hit': 5}
+
+Done ✓
