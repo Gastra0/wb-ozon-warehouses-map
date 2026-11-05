@@ -1,16 +1,26 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-11-04 14:59 UTC] WB Monitor starting
+[2026-11-05 15:05 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 67 seen UIDs
-  Meduza: 30 items → 0 relevant
-  BBC Russian: 33 items → 0 relevant
+  Meduza: 30 items → 1 relevant
+    NEW: Украина атаковала Рязанскую область. Телеграм-каналы сообщают о пожарах на НПЗ и
+  BBC Russian: 37 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
   The Insider: 50 items → 0 relevant
-  TG:Baza: 18 items → 0 relevant
-  TG:SHOT: 10 items → 0 relevant
-  TG:Rybar: 9 items → 0 relevant
-  TG:Astra: 14 items → 0 relevant
-  TG:Readovka: 14 items → 0 relevant
+  TG:Baza: 14 items → 0 relevant
+  TG:SHOT: 11 items → 0 relevant
+  TG:Rybar: 11 items → 0 relevant
+  TG:Astra: 20 items → 0 relevant
+  TG:Readovka: 15 items → 0 relevant
   TG:Obzor: 10 items → 0 relevant
-No new articles → no Claude call needed. Exiting cleanly.
+
+Sending 1 articles to Claude Haiku...
+Claude: in=6047 out=5744 tokens
+Summary: Рязанський склад WB переведено зі статусу hit на burned після підтвердженого удару ночі на 5 листопада 2026 року — повторна атака на складі, який вже був влучаний 29 липня.
+Saved wh_data.json
+Rebuilding index.html...
+GeoJSON: fetched
+Built index.html: 46 warehouses, {'burned': 27, 'ok': 15, 'hit': 4}
+
+Done ✓
