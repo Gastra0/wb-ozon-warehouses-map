@@ -1,17 +1,16 @@
 CWD: /home/runner/work/wb-ozon-warehouses-map/wb-ozon-warehouses-map
-[2026-11-13 15:01 UTC] WB Monitor starting
+[2026-11-14 13:53 UTC] WB Monitor starting
 DATA_FILE exists: True
 Loaded 69 seen UIDs
   Meduza: 30 items → 0 relevant
   BBC Russian: 35 items → 0 relevant
   Ukrainska Pravda: 20 items → 0 relevant
   Mediazona: 50 items → 0 relevant
-  The Insider: 50 items → 1 relevant
-  fetch https://rsshub.rssforever.com/telegram/channel/bazabazon: The read operation timed out
-  TG:Baza: 0 items → 0 relevant
-  TG:SHOT: 16 items → 0 relevant
-  TG:Rybar: 15 items → 0 relevant
-  TG:Astra: 13 items → 0 relevant
-  TG:Readovka: 17 items → 0 relevant
-  TG:Obzor: 9 items → 0 relevant
+  The Insider: 50 items → 0 relevant
+  TG:Baza: 14 items → 0 relevant
+  TG:SHOT: 14 items → 0 relevant
+  TG:Rybar: 17 items → 0 relevant
+  TG:Astra: 19 items → 0 relevant
+  TG:Readovka: 19 items → 0 relevant
+  TG:Obzor: 6 items → 0 relevant
 No new articles → no Claude call needed. Exiting cleanly.
